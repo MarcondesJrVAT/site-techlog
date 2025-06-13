@@ -20,6 +20,20 @@
                     }
                 }
             }
+
+            .valores-list {
+                list-style-type: disc;
+                padding-left: 20px;
+                margin: 0 0 15px 0;
+                color: #444;
+                text-align: justify;
+                word-break: break-word;
+            }
+
+            .valores-list li {
+                margin-bottom: 8px;
+                line-height: 1.6;
+            }
         </style>
 
         <section class="bg-blue">
@@ -28,21 +42,19 @@
                     <div class="col-md-12 animate fadeInLeft">
                         <div class="height-10"></div>
 
-                        <p class="text-justify">A VAT é uma empresa de Tecnologia da Informação, especializada em elaborar e executar projetos de educação em massa e comunicação corporativa, desde os anos 2000 no mercado, com resultados expressivos premiados nacional e internacionalmente.</p>
+                        <p class="text-justify">A Techlog Serviços de Gestão e Sistemas Informatizados LTDA. é uma empresa com ampla experiência em consultoria técnico-organizacional e gestão de mão de obra terceirizada. Desde 2000, tem participado de importantes projetos de informática aplicada na região Norte, atuando diretamente ou em parceria com instituições públicas e privadas. Destaca-se como integradora de talentos e soluções, promovendo inovação, pesquisa aplicada e desenvolvimento de tecnologias voltadas ao cotidiano da população.</p>
 
                         <div class="height-10"></div>
 
-                        <p class="text-justify">A VAT aplica a Plataforma de Software IP.TV em projetos educacionais nas áreas pública e privada.</p>
-
                         <div class="height-20"></div>
-                        <a href="/grupo" class="btn btn-primary" data-text="Saiba mais">Saiba mais</a>
+                        <a href="/fale-conosco" class="btn" style="background-color: #e77242; border-color: #d05e2a; color: #fff;" data-text="Saiba mais">Saiba mais</a>
                         <div class="height-40"></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="different-services text-center parallax">
+        <section class="different-services text-center">
             <div class="container">
                 <div class="heading animate bounceIn">
                     <h1 class="color-white">Valores</h1>
@@ -57,111 +69,27 @@
                         <div class="service-box animate fadeInUp">
                             <i class="icon-img-1"></i>
                             <h4>Missão</h4>
-                            <p>Pacote de serviços focado em produções televisivas mais profissionais, visando conferir qualidade e eficiência em todos os processos</p>
+                            <p>Democratizar o acesso ao conhecimento e impulsionar a educação em larga escala, desenvolvendo e fornecendo soluções tecnológicas inovadoras e serviços técnicos especializados na produção de conteúdo educacional e comunicação corporativa.</p>
                         </div>
                         <div class="service-box">
                             <i class="icon-img-2"></i>
                             <h4>Visão</h4>
-                            <p>Conjunto de soluções de <span style="font-style: italic;">software</span> para atender a diversos tipos de necessidades no mercado de videoconferência, focadas no ensino a distância.</p>
+                            <p>Ser referência em tecnologia educacional, reconhecida pela excelência, inovação e capacidade de adaptação às demandas do mercado, transformando a maneira como o conhecimento é acessado e disseminado, e contribuindo para o sucesso e satisfação de nossos parceiros.</p>
                         </div>
                         <div class="service-box">
                             <i class="icon-img-3"></i>
                             <h4>Valores</h4>
-                            <p>Conteúdos educacionais, AVA, LMS, Gerenciamento e <span style="font-style: italic;">outsourcing</span> de projetos educacionais</p>
+                            <ul class="valores-list"></ul>
+                            <li><strong>Integridade:</strong> Atuar com ética, transparência e responsabilidade.</li>
+                            <li><strong>Inovação:</strong> Desenvolver soluções tecnológicas avançadas e adaptáveis.</li>
+                            <li><strong>Excelência:</strong> Garantir a qualidade e eficácia dos serviços e produtos.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section>
-            <div class="container">
-                <div class="heading text-center animate bounceIn">
-                    <h2>Parceiros</h2>
-                    <p>Quem já utilizou em todo o Brasil</p>
-                </div>
-                <ul class="highlighted-sec clearfix">
-                    <a href="/projeto-seduc-amazonas">
-                        <li>
-                            <div class="text-box animate bounceIn">
-                            </div>
-                        </li>
-                    </a>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="100">
-                        </div>
-                    </li>
-                    <li>
-
-                        <div class="text-box animate bounceIn" data-delay="200">
-                        </div>
-
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="300">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="400">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="500">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="100">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="200">
-                        </div>
-                    </li>
-
-                    <li class="hidden-md hidden-xs  hidden-lg">
-                        <div class="text-box animate bounceIn" data-delay="200">
-                        </div>
-                    </li>
-                </ul>
-
-                <ul class="highlighted-sec clearfix select hidden">
-                    <li class="hidden-md hidden-xs hidden-sm">
-                        <div class="text-box animate bounceIn" data-delay="300">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="400">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="500">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="100">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-box animate bounceIn" data-delay="100">
-                        </div>
-                    </li>
-                </ul>
-
-                <ul class="highlighted-sec clearfix">
-                    <li class="text-right pull-right">
-                        <a class="show-all-customers" data-text="Ver todos usuários">Ver mais usuários</a>
-                    </li>
-                </ul>
-        </section>
 
         <div class="contact-us-bar">
             <div class="container">
@@ -171,57 +99,9 @@
                     </div>
                     <div class="col-md-3">
                         <div class="text-left">
-                            <a href="/fale-conosco" class="btn get-in-touch animate fadeInRight" style="background-color: #e77242;" data-text="Fale Conosco"><i class="icon-telephone114"></i>Fale Conosco</a>
+                            <a href="/fale-conosco" class="btn get-in-touch animate fadeInRight" style="background-color: #e77242; border-color: #d05e2a; color: #fff;" data-text="Fale Conosco"><i class="icon-telephone114"></i>Fale Conosco</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <script>
-            // Função para formatar números
-            function formatNumber(value, format) {
-                if (format === "k") {
-                    return (value / 1000).toFixed(1).replace('.0', '') + "k"; // Divide por 1000 e adiciona "k"
-                }
-                return value; // Retorna o número original se nenhum formato for especificado
-            }
-
-            // Função para animar os números
-            function animateCounter(element, target, prefix = "", format = "") {
-                let start = 0;
-                const duration = 2000; // 2 segundos
-                const increment = Math.ceil(target / (duration / 20)); // Define o incremento
-                const updateCounter = () => {
-                    start += increment;
-                    if (start >= target) {
-                        element.textContent = prefix + formatNumber(target, format); // Formata o valor final
-                    } else {
-                        element.textContent = prefix + formatNumber(start, format);
-                        requestAnimationFrame(updateCounter); // Chama novamente
-                    }
-                };
-                updateCounter();
-            }
-
-            // Detecta quando os números estão visíveis na tela
-            const counters = document.querySelectorAll(".quantity-counter");
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        const target = +entry.target.getAttribute("data-target");
-                        const prefix = entry.target.getAttribute("data-prefix") || "";
-                        const format = entry.target.getAttribute("data-format") || "";
-                        if (!entry.target.classList.contains("counted")) {
-                            animateCounter(entry.target, target, prefix, format);
-                            entry.target.classList.add("counted"); // Evita contar novamente
-                        }
-                    }
-                });
-            }, {
-                threshold: 1.0
-            });
-
-            // Adiciona os observadores aos elementos
-            counters.forEach((counter) => observer.observe(counter));
-        </script>
