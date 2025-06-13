@@ -1,35 +1,39 @@
-			<footer id="footer">
+			<footer id="footer" style="background-color: #e77242; color: #fff;">
 				<div class="container">
 					<div class="footer-top clearfix">
 
 						<div class="row">
 							<div class="col-md-3 col-sm-3">
-								<div class="footer-logo animate fadeInLeft"><a href="/"><img src="/assets/images/logo-vat.png" width="172" alt=""></a></div>
+								<div class="footer-logo animate fadeInLeft"><a href="/"><img src="/assets/images/logos/logo-techlog.png" width="172" alt=""></a></div>
 							</div>
 							<div class="col-md-9 col-sm-9">
-								<p class="text-justify">A VAT é uma empresa de Tecnologia da Informação e produção de conteúdo televisivo criada no ano de 2000, especializada em educação em massa e comunicação corporativa, aplicando a plataforma de <i>software</i> IP.TV, já utilizada no Brasil por mais de 2 milhões de alunos, em mais de 7.000 salas de aula/polos.</p>
+								<div class="footer-info text-left">
+									<p><strong>TECHLOG SERVIÇOS DE GESTÃO E SISTEMAS INFORMATIZADOS LTDA</strong> – CNPJ: 03.613.289/0001-02</p>
+									<p>R PEDRARIAS DE AVILAR, 26 - CONJ 31 DE MARÇO TÉRREO SALA 01</p>
+									<p>Manaus - AM - CEP 69.077-450</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="footer-bottom">
+				<div class="footer-bottom" style="background-color: #e77242; border-color: #d05e2a; color: #fff;">
 					<div class="container">
 						<div class="row">
 							<ul class="social text-center">
 								<li class="animate bounceIn" data-delay="300">
-									<a href="mailto:comercial@vat.com.br" target="_blank" class="twitter"><i class="icon-mail"></i></a>
+									<a href="mailto:comercial@techlog.com.br" target="_blank" class="twitter"><i class="icon-mail"></i></a>
 								</li>
 								<li class="animate bounceIn" data-delay="300">
-									<a href="https://goo.gl/maps/vCQUMFfrMUokrXB66" target="_blank" class="google"><i class="icon-map"></i></a>
+									<a href="https://maps.app.goo.gl/pMWj1X8TryAgQApj8" target="_blank" class="google"><i class="icon-map"></i></a>
 								</li>
 							</ul>
 							<br />
 							<div class="col-md-12 col-sm-12 text-center">
 								<p>
-									Comercial <a href="tel:+5592985291529">+55 92 98529-1529</a> · Suporte <a href="tel:08000464632">0800 046 4632</a>
+									Comercial <a href="#" style="color: #fff;">(92) 3306-4410 / (92) 3306-4405</a>
 								</p>
-								<p>Coyright © <?= date('Y'); ?> <strong>VAT Tecnologia da Informação</strong> Todos os direitos reservados.</p>
+								<p>Copyright © <?= date('Y'); ?> <strong>Techlog Serviços Informatizados</strong> Todos os direitos reservados.</p>
 							</div>
 						</div>
 					</div>
