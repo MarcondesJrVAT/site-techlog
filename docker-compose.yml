@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+
+  php:
+    image: codions/php:7.1-apache
+    volumes:
+      - .:/var/www/app
+      
+      - ./docker/prod/apache/apache2.conf:/etc/apache2/apache2.conf
+      - ./docker/prod/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./docker/prod/apache/ports.conf:/etc/apache2/ports.conf
+      - ./docker/prod/apache/fastcgi.conf:/etc/apache2/mods-available/fastcgi.conf
+
+      - ./docker/prod/php/cli/php.ini:/etc/php/7.1/cli/php.ini
+      - ./docker/prod/php/fpm/php.ini:/etc/php/7.1/fpm/php.ini
+      - ./docker/prod/php/fpm/php-fpm.conf:/etc/php/7.1/fpm/php-fpm.conf
+    environment:
+        VIRTUAL_HOST: www.academicpro.com.br,academicpro.com.br
+        VIRTUAL_PORT: 8080
+        LETSENCRYPT_HOST: www.academicpro.com.br,academicpro.com.br
+        LETSENCRYPT_EMAIL: fabio23gt@gmail.com
+    ports:
+      - '8080:8080'

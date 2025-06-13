@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+
+  vat.app:
+    image: codions/php:7.1-apache
+    container_name: vat.app
+    volumes:
+      - .:/var/www/app
+      - ~/.ssh:/home/docker-user/.ssh
+      - ~/.composer:/home/docker-user/.composer
+
+      - ./docker/dev/apache/apache2.conf:/etc/apache2/apache2.conf
+      - ./docker/dev/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./docker/dev/apache/ports.conf:/etc/apache2/ports.conf
+      - ./docker/dev/apache/fastcgi.conf:/etc/apache2/mods-available/fastcgi.conf
+
+      - ./docker/dev/php/cli/php.ini:/etc/php/7.1/cli/php.ini
+      - ./docker/dev/php/fpm/php.ini:/etc/php/7.1/fpm/php.ini
+      - ./docker/dev/php/fpm/php-fpm.conf:/etc/php/7.1/fpm/php-fpm.conf
+    ports:
+      - "8080:8080"

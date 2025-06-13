@@ -1,0 +1,305 @@
+@charset "utf-8"; /* CSS Document */
+/* ----------------------------------------------------------------
+    common classes
+-----------------------------------------------------------------*/
+a {
+    color: #e77242;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #e77242;
+}
+
+.color-default {
+    color: #e77242 !important;
+}
+
+.btn-link {
+    color: #e77242;
+}
+
+#header .main-nav li a:hover, #header .main-nav li.active a {
+    border-color: #e77242
+}
+
+#header .search-container .search button {
+    color: #e77242;
+}
+
+#header .search-container .search input[type="text"]:focus {
+    border-color: #e77242;
+}
+
+.no-touch .cd-slider-nav a:hover {
+    background-color: #e77242;
+}
+
+.cd-slider-nav .cd-marker {
+    background-color: #e77242;
+}
+
+#footer a:hover {
+    color: #e77242;
+}
+
+.btn-primary {
+    background-color: #e77242;
+}
+
+.owl-dots .owl-dot.active {
+    background-color: #e77242;
+}
+
+.counter span {
+    color: #e77242;
+}
+
+.service-box {
+    border-color: #e77242;
+}
+
+.service-box i {
+    color: #e77242;
+}
+
+.toggle .toggle-heading a i {
+    color: #e77242;
+    border-color: #e77242;
+}
+
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor {
+    background-color: #e77242;
+}
+
+#header .main-nav li.dropdown ul.dropdown-menu li a:hover, #header .main-nav li.dropdown ul.dropdown-menu li.active a {
+    background-color: #e77242;
+}
+
+.cd-slider-nav li .slide-number {
+    background-color: #e77242;
+}
+
+.cd-slider-nav li.selected .slide-number, .cd-slider-nav li:hover .slide-number {
+    color: #e77242;
+}
+
+#header.header-two .header-contact-widget li i {
+    color: #e77242;
+}
+
+#header.header-two .header-contact-widget li p a:hover {
+    color: #e77242;
+}
+
+.breadcrumbs li a:hover {
+    color: #e77242;
+}
+
+.blog-item .blog-content h3 a:hover {
+    color: #e77242;
+}
+
+.blog-item .blog-meta li a:hover {
+    color: #e77242;
+}
+
+.categories li a:hover {
+    color: #e77242;
+}
+
+.tags li a:hover {
+    color: #e77242;
+    border-color: #e77242;
+}
+
+.popular-post h4 a:hover {
+    color: #e77242;
+}
+
+.search {
+    background-color: #e77242;
+}
+
+.search .search-icon:hover i {
+    color: #e77242;
+}
+
+.blog-item-classic .blog-content a.btn-link, .blog-item .blog-content a.btn-link {
+    border-color: #e77242;
+}
+
+.blog-item-classic .blog-content h3 a:hover {
+    color: #e77242;
+}
+
+.news-paggination li a:hover {
+    color: #e77242;
+}
+
+.company-history li .year {
+    color: #e77242
+}
+
+.company-history li .history-content:before {
+    background-color: #e77242
+}
+
+.team-member h4 {
+    color: #e77242
+}
+
+.list-bullets li:before {
+    background: #e77242;
+}
+
+.left-nav li a:hover, .left-nav li a.active {
+    border-color: #e77242;
+}
+
+.help-widget {
+    background-color: #e77242;
+}
+
+.product-description h3 a:hover {
+    color: #e77242;
+}
+
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover {
+    color: #e77242;
+}
+
+.product-thumb label {
+    background: #e77242;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    background: #e77242;
+}
+
+.top-products .top-products-detail i {
+    color: #e77242;
+}
+
+.top-products .top-products-detail h4 a:hover {
+    color: #e77242;
+}
+
+.ratings i {
+    color: #e77242;
+}
+
+.resp-vtabs li.resp-tab-active {
+    color: #e77242;
+}
+
+.resp-tab-active {
+    background: #e77242;
+}
+
+.cart-total .amount {
+    color: #e77242;
+}
+
+.banner-btn.colored {
+    background: #e77242;
+}
+
+.map-with-address-widget a:hover {
+    color: #e77242;
+}
+
+blockquote {
+    border-color: #e77242;
+}
+
+.cases-filter-nav li a:hover, .cases-filter-nav li a.selected {
+    background: #e77242;
+}
+
+.product-detail-slider .rslides_tabs li.rslides_here a {
+    background: #e77242
+}
+
+.review-form-close:hover {
+    background: #e77242;
+}
+
+.btn.btn-dark:hover {
+    background: #e77242;
+}
+
+/* Mudar hover de laranja para uma tonalidade mais escura de laranja */
+.btn-primary:hover {
+    background-color: #d05e2a; /* Substituído de #0b2d67 para um laranja mais escuro */
+}
+
+a:hover, a:focus, .btn-link:hover, .btn-link:focus {
+    color: #d05e2a; /* Substituído de #0b2d67 para um laranja mais escuro */
+}
+
+.icon-img-1 {
+    background-image: url("../images/icons/1/big_editora.png");
+}
+
+.icon-img-2 {
+    background-image: url("../images/icons/1/big-produtora.png");
+}
+
+.icon-img-3 {
+    background-image: url("../images/icons/1/big-tecnologia-educacao.png");
+}
+
+.icon-img-4 {
+    background-image: url("../images/icons/1/big-sistema.png");
+}
+
+.icon-img-5 {
+    background-image: url("../images/icons/1/big-logistica.png");
+}
+
+.icon-img-6 {
+    background-image: url("../images/icons/1/big-software.png");
+}
+
+.icon-img-7 {
+    background-image: url("../images/icons/1/big-telecomunicacoes.png");
+}
+
+
+#footer .usefull-links-widget li a:hover {
+    background-image: url("../images/color-scheme/orange/dot-h.png"); /* alterar de blue para orange */
+}
+
+aside .testimonial-content {
+    background-image: url("../images/color-scheme/orange/testimonial-pointer2.png"); /* alterar de blue para orange */
+}
+
+.highlighted-sec li .text-box {
+    background: #f57c00; /* Substituído de #0491d5 para um laranja */
+    min-height: 265px;
+}
+
+.cases-item figcaption {
+    background: rgba(247, 124, 0, 0.80); /* Substituído de rgba(4,170,244,0.80) */
+}
+
+#header .top-bar:after, #header .top-bar {
+    background: #e77242;
+}
+
+#header .top-bar:before, #header .top-bar p, #header .top-bar p:after {
+    background: #d05e2a; /* Substituído de #0b2d67 para um laranja mais escuro */
+    font-weight: 600;
+}
+
+#header.header-two .main-nav {
+    background: #e77242;
+}
+
+.smallHeader.active #header.header-two {
+    background: #e77242 !important;
+}

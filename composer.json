@@ -1,0 +1,32 @@
+{
+    "name": "vat/babita",
+    "description": "Framework for PHP 5.6+",
+    "keywords": ["framework", "babita"],
+    "type": "project",
+    "homepage": "http://fabioassuncao.com.br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fábio Assunção",
+            "email": "fabio@fabioassuncao.com.br",
+            "homepage": "http://fabioassuncao.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "app/",
+            "Babita\\": "Babita/"
+        },
+
+        "files": [
+            "Babita/Supports/Support.php",
+            "app/Helpers/Metatags.php",
+            "app/Helpers/MessageSystem.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
