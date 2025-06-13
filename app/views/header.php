@@ -69,7 +69,7 @@ $metatags = getMetaTags();
 
         <div class="col-md-3">
           <div class="text-left">
-            <a href="/fale-conosco" class="btn get-in-touch animate fadeInRight" style="background-color: #e77242; border-color: #d05e2a;" data-text="Fale Conosco"><i class="icon-telephone114"></i>Fale Conosco</a>
+            <a href="/fale-conosco" class="btn get-in-touch animate fadeInRight" style="background-color: #e77242; border-color: #d05e2a; color: #fff;" data-text="Fale Conosco"><i class="icon-telephone114"></i>Fale Conosco</a>
           </div>
         </div>
 
