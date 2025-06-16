@@ -8,6 +8,8 @@ class ComposerStaticInit3c628add6f390af6db7f77548707e04b
 {
     public static $files = array (
         '21e22693b6d07f3b5e75afc630b47d73' => __DIR__ . '/../..' . '/Babita/Supports/Support.php',
+        '53333d513444b8bbbbe0527590393a21' => __DIR__ . '/../..' . '/app/Helpers/Metatags.php',
+        'a6ecf7004b78b7e55565fe73315fa778' => __DIR__ . '/../..' . '/app/Helpers/MessageSystem.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -28,12 +30,17 @@ class ComposerStaticInit3c628add6f390af6db7f77548707e04b
         0 => __DIR__ . '/../..' . '/app',
     );
 
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit3c628add6f390af6db7f77548707e04b::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3c628add6f390af6db7f77548707e04b::$prefixDirsPsr4;
             $loader->fallbackDirsPsr4 = ComposerStaticInit3c628add6f390af6db7f77548707e04b::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInit3c628add6f390af6db7f77548707e04b::$classMap;
 
         }, null, ClassLoader::class);
     }
