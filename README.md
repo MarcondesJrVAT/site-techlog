@@ -3,7 +3,7 @@
 Instruções de instalação e configuração do projeto.
 
 ```sh
-git clone git@git.ip.tv:fabioassuncao/site-vat.git && cd site-vat && npm install
+git clone git@github.com:MarcondesJrVAT/site-techlog.git && cd site-techlog && npm install
 ```
 
 ### Build
