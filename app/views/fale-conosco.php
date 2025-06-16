@@ -40,7 +40,7 @@
             <div class="col-md-6 col-sm-6 animate fadeInRight">
                 <div class="contact-form">
                     <h3>Envie sua mensagem</h3>
-                    <form action="/enviar-contato.php" method="post">
+                    <form action="/fale-conosco" method="post">
                         <div class="form-group">
                             <label for="name">Nome Completo *</label>
                             <input type="text" class="form-control" id="name" name="name" required>
