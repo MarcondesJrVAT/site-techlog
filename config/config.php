@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @author Fábio Assunção - fabio@fabioassuncao.com.br
  * @version 0.0.1
@@ -29,7 +30,7 @@ define('ENVIRONMENT', 'production');
 
 define('DIR', '/');
 
-define('URL_SITE', 'https://www.vat.com.br/');
+define('URL_SITE', 'https://www.techlog.com.br/');
 
 
 /**
@@ -109,24 +110,24 @@ define('APP_KEY', 'a9e83e7d2b4638ff200ba1a2b925c424e623420a');
  * Site key
  * Use this in the HTML code your site serves to users.
  */
- define('RECAPTCHA_PUBLIC_KEY', '6Le6jigTAAAAAGkWv-SzAedoBbgFbSLDve5hE25F');
+define('RECAPTCHA_PUBLIC_KEY', '6Le6jigTAAAAAGkWv-SzAedoBbgFbSLDve5hE25F');
 
 /**
  * Recaptcha Key Google
  * Secret key
  * Use this for communication between your site and Google. Be sure to keep it a secret.
  */
- define('RECAPTCHA_SECRET_KEY', '6Le6jigTAAAAAM4460isGCYrxxh8sXXITZXgrIoP');
+define('RECAPTCHA_SECRET_KEY', '6Le6jigTAAAAAM4460isGCYrxxh8sXXITZXgrIoP');
 
 /**
  * Optional create a constant for the name of the site.
  */
-define('SITETITLE', 'VAT Tecnologia da Informação S/A');
+define('SITETITLE', 'Techlog Serviços de Gestão e Sistemas Informatizados LTDA');
 
 /**
  * Set timezone.
  */
-define('TIMEZONE', 'America/Sao_Paulo');
+define('TIMEZONE', 'America/Manaus');
 
 /**
  * Set User agent
