@@ -1,6 +1,7 @@
 <?php
 
 namespace Controllers;
+
 use Babita\Mailer\Mail;
 use Babita\Helpers\Url;
 use Babita\Security\Csrf;
@@ -61,7 +62,7 @@ class FaleConosco extends BaseController
         }
 
         // Caso tenha erros, envia mensagens com lista erros para a tela do usuário
-        if(count($errors) >= 1){
+        if (count($errors) >= 1) {
 
             $list = "<ul class='margin-left-20'>";
             foreach ($errors as $error) {
@@ -90,23 +91,23 @@ class FaleConosco extends BaseController
 
 
         // Instancia PHPMailer
-    	$mail = new Mail();
+        $mail = new Mail();
 
         // Cria assunto da mensagem
         $subject = "VAT - Fale Conosco: " . $subject;
 
         // Seta assunto da mensagem
-		$mail->subject($subject);
+        $mail->subject($subject);
 
         $template = 'app/Templates/mensagem-site';
         $emailHtml = View::get($template, $form, false, true);
 
         // Seta corpo da mensagem
-		$mail->body($emailHtml);
+        $mail->body($emailHtml);
 
         $mail->address('to', [
-                'mail' => 'suporte@ip.tv',
-                'name' => 'Suporte IPTV'
+            'mail' => 'suporte@ip.tv',
+            'name' => 'Suporte IPTV'
         ]);
 
         // Seta destino da mensagem | Com cópia oculta
@@ -118,8 +119,8 @@ class FaleConosco extends BaseController
         ]);
 
         // Seta remetente
-		$mail->from(['mail' => MAIL_USER, 'name' => 'Fale Conosco [VAT]']);
-		$mail->replyTo(['mail' => $email, 'name' => $name]);
+        $mail->from(['mail' => MAIL_USER, 'name' => 'Fale Conosco [VAT]']);
+        $mail->replyTo(['mail' => $email, 'name' => $name]);
 
         $mail->smtpConnect([
             'ssl' => [
@@ -130,7 +131,7 @@ class FaleConosco extends BaseController
         ]);
 
         // Envia mensagem
- 		$result = $mail->mailsend();
+        $result = $mail->mailsend();
 
         // Caso tenha enviado com sucesso
         if ($result['status'] === true) {
@@ -144,6 +145,5 @@ class FaleConosco extends BaseController
 
         // Retorna para o formulário com uma mensagem de feedback
         Url::redirect('fale-conosco');
-
     }
 }
